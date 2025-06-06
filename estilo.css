@@ -196,23 +196,29 @@ color: aquamarine;
     .slider {
         width: 98vw;
         max-width: 100%;
-        height: 220px;
+        height: 160px; /* más bajo para móvil */
         margin: 10px auto;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
     }
     .lista_slider {
-        width: 960px; /* 480*2 slides aprox, ajustar segun cantidad de imágenes */
-        height: 180px;
+        width: auto;
+        height: 140px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        animation: none; /* Desactiva animación si da problemas */
     }
     .slide {
-        width: 220px;
+        min-width: 130px;
+        width: 70vw;
+        max-width: 200px;
+        margin-right: 8px;
     }
     .desc_slide {
-        width: 80px;
-        font-size: 14px;
-        height: 160px;
+        width: auto;
+        font-size: 12px;
+        height: 120px;
     }
+}
     .text_pres {
         width: 92vw;
         font-size: 18px;
