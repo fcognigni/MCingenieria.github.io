@@ -191,7 +191,7 @@ color: aquamarine;
         height: auto;
     }
     .cuerpo {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .slider {
         width: 98vw;
@@ -218,7 +218,7 @@ color: aquamarine;
         font-size: 12px;
         height: 120px;
     }
-}
+
     .text_pres {
         width: 92vw;
         font-size: 18px;
@@ -245,4 +245,5 @@ color: aquamarine;
         margin: 10px 0 0 0;
         padding: 8px 0;
     }
+ 
 }
